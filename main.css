@@ -1,0 +1,70 @@
+/* Set font family and background color for the entire page */
+*{
+    font-size: 20px;
+    font-style: rgb(239, 233, 233);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+  }
+  
+  /* Center the profile picture and add a border */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Style the section headings */
+  h1, h2 {
+    text-align: center;
+    color: #0e0d0d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Add some padding and a border around each section */
+  section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  /* Style the unordered lists */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add some padding and a border around each list item */
+  li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style the email and phone number */
+  p {
+    text-align: center;
+    color: #333;
+    margin: 10px;
+  }
+  
+  /* Style the links */
+  a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  a:hover {
+    border-bottom: 2px solid #666;
+  }
+  
